@@ -19,3 +19,19 @@
 .cabecalho-lista-item{
     display: inline-block;   
 }
+
+.escola-imagem{
+    width:25%;
+}
+
+.escola{
+    background-image: linear-gradient(#A06B4C,#FFFFFF);
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escola-conteudo{
+    width:35%
+}
