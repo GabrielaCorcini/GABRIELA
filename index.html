@@ -1,99 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-</html>
-    
-<body>
-    <header class="cabecalho">
-        <img class="cabecalho-imagem" src="./img/alurastart logo 1.png" alt="logo da altura start" >
-        <ul class="cabecalho-lista-item">
-            <li class="cabecalho-lista-item">Estudante</li>
-            <li class="cabecalho-lista-item">Escola</li>
-        </ul>
-    </header>
-    <section class="escola">
-        <div class="escola-conteudo">
-        <h2 class="escola-titulo">Sobre a Escola</h2>
-        <p class="escola-texto-um">O colégio foi fundado em 1800, pelos dois irmãos venezianos, Marcos e Antônio Cavanis. A coordenação atua é dirigida pela diretora Leila, e vice-diretora Noeli. O telefone é (42) 32325201. </p>
-        <p class="escola-texto-dois">A turma mais engajada é a Segunda série C. Uma turma diversa e animada, as vezes, um pouco bagunceira, mas que entrega excelentes resultados!</p>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-wigth, initial-scale=1.0">
+        <title>ALuraBooks</title>
+        <link rel="styleheet" href="style.css">
+        <link rel="styleheet" href="reset.css">
+    </head>
+    <body>
+        <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="Menu" class="container_botao">
+                <label for="Menu">
+                    <span class="cabeçalho_menu-hambuguer"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu_titulo">Categorias</li>
+                </ul>
+                <a href="#"><img src="img/Menu.svg" alt="Menu" class="container_imagem"></a>
+                <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container_imagem">
+                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container_imagem"></a>
+                <a href="#"><img src="img/Compra.svg" alt="Carrinho de compras" class="container_imagem"></a>
+                <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container_imagem"></a>
         </div>
-        <img class= "escola-imagem" src="./img/fotoescola.png" alt ="Colégio Cavanis">
-    </section>
-    <section class="estudante">
-        <h2 class="estudante-titulo">Quem são nossos estudantes? </h2>
-    <div class="estudantes-todos">
-        <span></span>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="./img/Rebeca.jpg" alt="foto do estudante Marcelo">
-            <h3>Rebeca</h3>
-            <a href="https://www.facebook.com/" target="_blank"><img class="estudante-icone" src="./img/facebook.png" alt="Facebook">
-            <img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
-            <img class="estudante-icone" src="./img/twitter.png" alt="Twitter">
-        </div>   
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="./img/Cesar.jpg" alt="foto do estudante Marcelo">
-            <h3>Cesar</h3>
-            <img class="estudante-icone" src="./img/facebook.png" alt="Facebook">
-            <img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
-            <img class="estudante-icone" src="./img/twitter.png" alt="Twitter">
-        </div>    
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="./img/Ana Luiza.jpg" alt="foto do estudante Marcelo">
-            <h3>Ana Luiza</h3>
-            </a><img class="estudante-icone" src="./img/facebook.png" alt="Facebook">
-            </a><img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
-            </a><img class="estudante-icone" src="./img/twitter.png" alt="Twitter">
-        </div> 
-        <span></span>   
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="./img/Matheus.jpg" alt="foto do estudante Marcelo">
-            <h3>Matheus Urbanski</h3>
-            </a><img class="estudante-icone" src="./img/facebook.png" alt="Facebook">
-            </a><img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
-            </a><img class="estudante-icone" src="./img/twitter.png" alt="Twitter">
-        </div>    
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="./img/Nathalia.jpg" alt="foto do estudante Marcelo">
-            <h3>Nathalia</h3>
-            </a><img class="estudante-icone" src="./img/facebook.png" alt="Facebook">
-            </a><img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
-            </a><img class="estudante-icone" src="./img/twitter.png" alt="Twitter">
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="./img/Fernanda.jpg" alt="foto do estudante Marcelo">
-            <h3>Fernanda</h3>
-            </a><img class="estudante-icone" src="./img/facebook.png" alt="Facebook">
-            </a><img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
-            </a><img class="estudante-icone" src="./img/twitter.png" alt="Twitter">
-        </div>
-        <span></span>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="./img/Nathan.jpg" alt="foto do estudante Marcelo">
-            <h3>Nathan</h3>
-            </a><img class="estudante-icone" src="./img/facebook.png" alt="Facebook">
-            </a><img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
-            </a><img class="estudante-icone" src="./img/twitter.png" alt="Twitter">
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="./img/Gabriela.jpg" alt="foto do estudante Marcelo">
-            <h3>Gabriela</h3>
-            <a href="https://www.facebook.com/" target="_blank"></a><img class="estudante-icone" src="./img/facebook.png" alt="Facebook">
-            <a href="https://www.instagram.com/" target="_blank"></a><img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
-            <a href="https://www.twitter.com/" target="_blank"></a><img class="estudante-icone" src="./img/twitter.png" alt="Twitter">
-        </div>
-    </div>
-    </section>
-    <footer>
-        <img src="./img/alurastart logo 1.png" alt="logo da alura start">
-    </footer>
-</body>
+        </header>
+    </body>
 </html>
